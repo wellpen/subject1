@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import subject.memberupdate.model.MemberupdateService;
 import subject.memberupdate.model.MemberupdateVO;
 
-@WebServlet("/member.doe")
+@WebServlet("/member.do")
 public class MemberupdateController extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		doPost(req, res);
